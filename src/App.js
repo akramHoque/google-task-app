@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Task from "./components/Task";
 import ToDo from "./components/ToDo";
 import Navbar from "./Navbar";
+import Footer from "./Shared/Footer";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="task" element={<Task/>} />
         <Route path="calander" element={<Calander/>} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
